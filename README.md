@@ -20,12 +20,7 @@ Tasks include:
 8. Finding top ending locations
 
 
-## Results & Analysis
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-[Link to view the Dashboard](https://public.tableau.com/views/nyc201908/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link)
-
+## Processing and Visualization
 After inspecting the csv file, I connected it to Tableau as a text file. 
 
 ![Screenshot](Images/connect.png)
@@ -46,16 +41,19 @@ Lastly, I created a calculated field to determine the age of each user since tha
 
 ![Screenshot](Images/age_cf.png)
 
+### Please watch the video below demonstrating how to navigate the dashboard
+
+<iframe width="1917" height="979" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### [Link to view the Dashboard](https://public.tableau.com/views/nyc201908/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ## Drawing Insights
 
 1. There were 2.3 million trips taken in August 2019 with the average trip duration being 17.5 minutes.
 2. A majority of the users in August 2019 were male subscribers.
-3. The top 15 starting and ending locations closely resemble each other.
-4. The peak riding hours are 8 AM and 5 PM.
-5. Looking at the chart that displays average trip duration by age, it appears that younger riders tend to utilize the bikes for longer periods. It is worth noting, however, that there are some notably high ages present in the data. Citi Bike reports the birth year as 1885 when it is unknown or missing, leading to these unusually high ages. It is possible that some of the remaining high ages are a result of users intentionally entering false birth years to safeguard their privacy or for other reasons.
+3. The top 15 starting and ending locations closely resemble each other suggesting that these areas are densely populated or have a high concentration of businesses or attractions that people are traveling to or from.
+4. The peak riding hours are 8 AM and 5 PM, likely meaning that people are using the bikes for commuting to and from work.
+5. It appears that younger riders tend to utilize the bikes for longer periods. It is worth noting, however, that there are some notably high ages present in the data. Citi Bike reports the birth year as 1885 when it is unknown or missing, leading to these unusually high ages. It is possible that some of the remaining high ages are a result of users intentionally entering false birth years to safeguard their privacy or for other reasons.
 
 ---
-<div style="display: flex; justify-content: space-between;">
-    <div>Return to the <a href="https://kenlo94.github.io/">Homepage</a></div>
-    <div>View the Project on <a href="https://github.com/kenlo94/Pewlett-Hackard-Analysis">GitHub</a></div>
-</div>
+Return to the [Homepage](https://kenlo94.github.io/)
