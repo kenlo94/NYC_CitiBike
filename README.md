@@ -43,7 +43,7 @@ Lastly, I created a calculated field to determine the age of each user since tha
 
 ### Please watch the video below demonstrating how to navigate the dashboard
 
-<iframe width="1917" height="979" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="980" height="500" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### [Link to view the Dashboard](https://public.tableau.com/views/nyc201908/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link)
 
