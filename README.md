@@ -32,7 +32,7 @@ After inspecting the csv file, I connected it to Tableau as a text file.
 
 Next, I inspected the measures and dimensions and noticed that most of them were categorized incorrectly. The image on the left is the before and the image on the right is the after.
 
-![Screenshot](Images/md1.png) ![Screenshot](Images/md2.png)
+![Screenshot](Images/md1.png)   ![Screenshot](Images/md2.png)
 
 Since the original data categorized gender into a 0, 1, or 2, I had to create a calculated field to detemine gender based on the value assigned.
 
