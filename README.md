@@ -45,7 +45,9 @@ Lastly, I created a calculated field to determine the age of each user since tha
 
 <iframe width="980" height="500" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### [View the Dashboard on Tableau Public](https://public.tableau.com/views/NYCCitiBikeAugust2019/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+<p style="font-size: 48px;"><a href="https://public.tableau.com/views/NYCCitiBikeAugust2019/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">View the Dashboard on Tableau Public</a></p>
+
 
 ## Drawing Insights
 
