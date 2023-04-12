@@ -6,7 +6,7 @@ Data source: 201908-citibike-tripdata.csv
 Software: Tableau Desktop Public Edition Version 2023.1
 
 ## Project Overview
-### Use the provided csv file to create a dashboard.
+### Use the provided csv file to create a dashboard
 
 Tasks include:
 
