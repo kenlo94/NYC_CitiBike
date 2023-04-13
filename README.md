@@ -8,18 +8,6 @@ Software: Tableau Desktop Public Edition Version 2023.1
 ## Project Objectives
 ### Use the provided csv file to create a dashboard to tell the best possible data driven story.
 
-Tasks include:
-
-1. Importing the data into Tableau
-2. Determining the total number of trips taken in August
-3. Finding the ratio of male to female users
-4. Finding the ratio of short term customers to annual subscribers
-5. Finding the peak riding hours in August
-6. Finding the average tripduration by age
-7. Finding top starting locations
-8. Finding top ending locations
-
-
 ## Processing and Visualization
 After inspecting the csv file, I connected it to Tableau as a text file. 
 
