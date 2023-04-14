@@ -17,7 +17,7 @@ Next, I inspected the measures and dimensions and noticed that most of them were
 
 ![Screenshot](Images/md1.png)   ![Screenshot](Images/md2.png)
 
-Since the original data categorized gender into a 0, 1, or 2, I had to create a calculated field to detemine gender based on the value assigned.
+Since the original data categorized gender into a 0, 1, or 2, I had to create a calculated field to determine gender based on the value assigned.
 
 ![Screenshot](Images/gender_cf.png)
 
