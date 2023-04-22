@@ -30,7 +30,7 @@ Lastly, I created a calculated field to determine the age of each user since tha
 ![Screenshot](Images/age_cf.png)
 
 
-<p style="font-size: 48px;"><a href="https://public.tableau.com/views/NYCCitiBikeAugust2019/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">View the Dashboard on Tableau Public</a></p>
+View the Dashboard on [Tableau Public](https://public.tableau.com/views/NYCCitiBikeAugust2019/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank)
 
 
 ## Drawing Insights
