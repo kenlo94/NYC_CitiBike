@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07QV7C307D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-07QV7C307D');
+</script>
+    <meta charset="utf-8">
+    <title>NYC Citi Bike Summary for August 2019</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="15"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="19"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="23"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="27"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 25px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a id="NYC_Citi_Bike_Summary_for_August_2019_0"></a>NYC Citi
+        Bike Summary for August 2019</h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="3" data-line-end="4">Data source: 201908-citibike-tripdata.csv</p>
+    <p class="has-line-data" data-line-start="5" data-line-end="6">Software: Tableau Desktop Public Edition Version
+        2023.1</p>
+    <h2 class="code-line" data-line-start=7 data-line-end=8><a id="Project_Objectives_7"></a>Project Objectives</h2>
+    <hr class="my-hr">
+    <p class="code-line" data-line-start=8 data-line-end=9><a
+            id="Use_the_provided_csv_file_to_create_a_dashboard_to_tell_the_best_possible_data_driven_story_8"></a>Use
+        the provided csv file to create a dashboard to tell the best possible data driven story.</p>
+    <h2 class="code-line" data-line-start=10 data-line-end=11><a id="Processing_and_Visualization_10"></a>Processing and
+        Visualization</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="11" data-line-end="12">After inspecting the csv file, I connected it to
+        Tableau as a text file.</p>
+    <p class="has-line-data" data-line-start="13" data-line-end="14"><img src="Images/connect.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="15" data-line-end="16">Next, I inspected the measures and dimensions and
+        noticed that most of them were categorized incorrectly. The image on the left is the before and the image on the
+        right is the after.</p>
+    <p class="has-line-data" data-line-start="17" data-line-end="18"><img src="Images/md1.png" alt="Screenshot"> <img
+            src="Images/md2.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="19" data-line-end="20">Since the original data categorized gender into a
+        0, 1, or 2, I had to create a calculated field to determine gender based on the value assigned.</p>
+    <p class="has-line-data" data-line-start="21" data-line-end="22"><img src="Images/gender_cf.png" alt="Screenshot">
+    </p>
+    <p class="has-line-data" data-line-start="23" data-line-end="24">Trip duration was also originally measured in
+        seconds, so I created a calculated field to convert it into minutes to make more sense to the viewer.</p>
+    <p class="has-line-data" data-line-start="25" data-line-end="26"><img src="Images/td_cf.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="27" data-line-end="28">Lastly, I created a calculated field to determine
+        the age of each user since that would make more sense to the viewer than seeing their birth year.</p>
+    <p class="has-line-data" data-line-start="29" data-line-end="30"><img src="Images/age_cf.png" alt="Screenshot"></p>
+    <h1 class="code-line" data-line-start="32" data-line-end="33">View the Dashboard on <a
+            href="https://public.tableau.com/views/NYCCitiBikeAugust2019/NYCCitiBikeSummary?:language=en-US&:display_count=n&:origin=viz_share_link"
+            target="_blank">Tableau Public</a></h1>
+    <h2 class="code-line" data-line-start=35 data-line-end=36><a id="Drawing_Insights_35"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <ol>
+        <li class="has-line-data" data-line-start="37" data-line-end="38">There were 2.3 million trips taken in August
+            2019 with the average trip duration being 17.5 minutes.</li>
+        <li class="has-line-data" data-line-start="38" data-line-end="39">A majority of the users in August 2019 were
+            male subscribers.</li>
+        <li class="has-line-data" data-line-start="39" data-line-end="40">The top 15 starting and ending locations
+            closely resemble each other suggesting that these areas are densely populated or have a high concentration
+            of businesses or attractions that people are traveling to or from.</li>
+        <li class="has-line-data" data-line-start="40" data-line-end="41">The peak riding hours are 8 AM and 5 PM,
+            likely meaning that people are using the bikes for commuting to and from work.</li>
+        <li class="has-line-data" data-line-start="41" data-line-end="43">It appears that younger riders tend to utilize
+            the bikes for longer periods. It is worth noting, however, that there are some notably high ages present in
+            the data. Citi Bike reports the birth year as 1885 when it is unknown or missing, leading to these unusually
+            high ages. It is possible that some of the remaining high ages are a result of users intentionally entering
+            false birth years to safeguard their privacy or for other reasons.</li>
+    </ol>
+    <hr>
+    <p class="has-line-data" data-line-start="44" data-line-end="45">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
